@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="xbmc.repo.autosubtitle"
+       name="AutoSubtitle Add-ons for XBMC"
+       version="0.0.4"
+       provider-name="nmorel">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="AutoSubtitle Add-on Repository">
+        <info compressed="false">http://nmorel.github.io/autosubtitle-xbmc/addons.xml</info>
+        <checksum>http://nmorel.github.io/autosubtitle-xbmc/addons.xml.md5</checksum>
+        <datadir zip="true">http://nmorel.github.io/autosubtitle-xbmc/addons</datadir>
+        <hashes>false</hashes>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Install Add-ons for AutoSubtitle</summary>
+        <description lang="en">Install Add-ons for AutoSubtitle</description>
+        <disclaimer lang="en"/>
+        <platform>all</platform>
+        <nofanart>true</nofanart>
+    </extension>
+</addon>
